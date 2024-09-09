@@ -25,7 +25,7 @@ jobs:
 
       - name: Build documentation tool
         run: |
-          cd tools/OpenDreamDocumentationTool
+          cd ref/tools/OpenDreamDocumentationTool
           git submodule update --init --recursive
           dotnet build -o $GITHUB_WORKSPACE/oddt-bin OpenDreamDocumentationTool
 
