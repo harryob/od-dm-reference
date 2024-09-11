@@ -105,6 +105,9 @@ Zola allows us to put arbitrary TOML under the [extra] section, which we do for 
   - `[[args.od_unimplemented]]` - If this argument is implemented or not in the OpenDream implementation of BYOND.
 - Vars:
   - `default_value_desc` - This allows us to add extra information about the default value that this variable is set to.
+- Operators:
+  - `usage` - How the operator is supposed to be used.
+  - `return` - What the operator should return.
 
 ## Available Markdown formatting
 
