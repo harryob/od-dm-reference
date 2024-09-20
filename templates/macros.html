@@ -366,8 +366,10 @@
 
     {% if page.extra.od_unimplemented %}
     {{ sc::render_callout(color="#f87171", 
-        title="Unimplemented 🏗️", 
-        body="In the OpenDream implementation of DreamMaker, this proc is marked as unimplemented.") 
+        title="Unimplemented 🏗️",
+        body="",
+        contents="In the OpenDream implementation of DreamMaker, this proc is marked as unimplemented.",
+        smallTitle=list)
     }}
     {% endif %}
 
@@ -445,7 +447,9 @@
     {% if page.extra.od_unimplemented %}
         {{ sc::render_callout(color="#f87171", 
             title="Unimplemented 🏗️", 
-            body="In the OpenDream implementation of DreamMaker, this variable is marked as unimplemented.") 
+            body="",
+            contents="In the OpenDream implementation of DreamMaker, this variable is marked as unimplemented.",
+            smallTitle=list)
         }}
     {% endif %}
 
