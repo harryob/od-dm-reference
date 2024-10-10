@@ -2,7 +2,6 @@
 title = "hearers"
 [extra]
 return_type = "path, /list" # AUTOGEN FIELD
-od_unimplemented = true # AUTOGEN FIELD
 is_override = false # AUTOGEN FIELD
 [[extra.args]]
 name = "Depth" # AUTOGEN STATIC
